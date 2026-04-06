@@ -1,11 +1,14 @@
 no_resolve: true
 domain_set:
-- dcg.microsoft.com
 - extshort.weixin.qq.com
+- dcg.microsoft.com
 - apple.comscoreresearch.com
 domain_suffix_set:
 - 220331.xyz
 - pigs.eu.org
+- zjzz.de
+- zddz.de
+- acgf.vip
 - zeronews.cc
 - takin.cc
 - crrcelectric.com
@@ -35,8 +38,6 @@ domain_suffix_set:
 - local
 geoip_set:
 - CN
-asn_set:
-- '132203'
 ip_cidr_set:
 - 192.168.0.0/16
 - 10.0.0.0/8
@@ -50,6 +51,8 @@ or_set:
     match: '123'
   - !dest_port
     match: '1900'
+  - !dest_port
+    match: '3000'
   - !dest_port
     match: '3493'
   - !dest_port

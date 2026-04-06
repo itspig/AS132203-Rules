@@ -7,9 +7,6 @@ domain_set:
 - ichnaea-web.netflix.com
 - www.app-ads-services.com
 - oth.eve.mdt.qq.com
-domain_keyword_set:
-- httpdns
-domain_suffix_set:
 - data.bilibili.com
 - dataflow.biliapi.com
 - sofire.baidu.com
@@ -24,8 +21,20 @@ domain_suffix_set:
 - ta.pinduoduo.com
 - th.pinduoduo.com
 - app-analytics-services.com
+- ads-api.x.com
+- odm.app-ads-services.com
+- i-adq.mediation.unity3d.com
+- edge.adobedc.net
+- cdn.cookielaw.org
+- js.monitor.azure.com
+- config.uca.cloud.unity3d.com
 - dns.weixin.qq.com
 - dns.google
+- dns.google.com
+- mozilla.cloudflare-dns.com
+- cloudflare-dns.com
+domain_wildcard_set:
+- '*pcdn*.biliapi.net'
 or_set:
 - - !dest_port
     match: '53'
