@@ -1,0 +1,58 @@
+no_resolve: true
+domain_set:
+- dcg.microsoft.com
+- extshort.weixin.qq.com
+- apple.comscoreresearch.com
+domain_suffix_set:
+- 220331.xyz
+- pigs.eu.org
+- zeronews.cc
+- takin.cc
+- crrcelectric.com
+- crrcgc.cc
+- crrcgo.cc
+- zaobao.com.sg
+- zaobao.com
+- hihonorcloud.com
+- aaplimg.com
+- apple-cloudkit.com
+- apple-dns.net
+- apple-mapkit.com
+- apple.co
+- apple.com
+- apple.com.cn
+- apple.news
+- appstore.com
+- cdn-apple.com
+- crashlytics.com
+- icloud-content.com
+- icloud.com
+- icloud.com.cn
+- itunes.com
+- me.com
+- mzstatic.com
+- cable.auth.com
+- local
+geoip_set:
+- CN
+asn_set:
+- '132203'
+ip_cidr_set:
+- 192.168.0.0/16
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 127.0.0.0/8
+- 100.64.0.0/10
+ip_cidr6_set:
+- fe80::/10
+or_set:
+- - !dest_port
+    match: '123'
+  - !dest_port
+    match: '1900'
+  - !dest_port
+    match: '3493'
+  - !dest_port
+    match: '5353'
+  - !dest_port
+    match: '52637'

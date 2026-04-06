@@ -1,0 +1,33 @@
+no_resolve: true
+domain_set:
+- settings-win.data.microsoft.com
+- api.msn.com
+- c2shb.ssp.yahoo.com
+- metrics.icloud.com
+- ichnaea-web.netflix.com
+- www.app-ads-services.com
+- oth.eve.mdt.qq.com
+domain_keyword_set:
+- httpdns
+domain_suffix_set:
+- data.bilibili.com
+- dataflow.biliapi.com
+- sofire.baidu.com
+- up-hl.3g.qq.com
+- yun-hl.3g.qq.com
+- rmonitor.qq.com
+- loggw.alipay.com
+- mdap.alipay.com
+- adv.ccb.com
+- apikey.map.qq.com
+- analytics.95516.com
+- ta.pinduoduo.com
+- th.pinduoduo.com
+- app-analytics-services.com
+- dns.weixin.qq.com
+- dns.google
+or_set:
+- - !dest_port
+    match: '53'
+  - !dest_port
+    match: '853'

@@ -1,0 +1,8 @@
+no_resolve: true
+domain_suffix_set:
+- f-droid.org
+- services.googleapis.cn
+- xn--ngstr-cn-8za9o.com
+- xn--ngstr-lra8j.com
+- bing.com
+- bitwarden.com
