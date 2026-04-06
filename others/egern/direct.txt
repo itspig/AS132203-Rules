@@ -36,8 +36,6 @@ domain_suffix_set:
 - mzstatic.com
 - cable.auth.com
 - local
-geoip_set:
-- CN
 ip_cidr_set:
 - 192.168.0.0/16
 - 10.0.0.0/8
