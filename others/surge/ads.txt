@@ -26,7 +26,7 @@ DOMAIN,i-adq.mediation.unity3d.com
 DOMAIN,edge.adobedc.net
 DOMAIN,cdn.cookielaw.org
 DOMAIN,js.monitor.azure.com
-DOMAIN,config.uca.cloud.unity3d.com,REJECT,extended-matching
+DOMAIN,config.uca.cloud.unity3d.com
 DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.google
 DOMAIN,dns.google.com
